@@ -1,0 +1,132 @@
+body{
+	background-color: rgb(252,252,252);
+	margin:0;
+	height:100vh;
+}
+
+#navHeader{
+	position: relative;
+	display: block;
+	width:99%;
+	height:5vh;
+	margin-bottom: 0; 
+
+}
+
+.navigation-bar{
+	position: relative;
+	display: inline-block;
+	width:65%;
+	left:17%;
+	margin-bottom: 0;
+}
+
+ .drop-down, a{
+	text-decoration: none;
+	font-family: interstate, sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	color: black;
+	padding:4px 0px 6px 0px;
+	font-size: 1.4vw;
+	display: inline-block;
+	margin-left: 12%;
+
+}
+
+.drop-nav{
+	display: none;
+	background-color: rgba(236, 236, 236, 0.8);
+	position: absolute;
+	width:21%;
+	z-index: 100;
+	padding:2px;
+
+}
+
+.drop-nav> a{
+	position: relative;
+	display: block;
+	left:4%;
+	padding:6px;
+	padding-bottom: 10px;
+
+}
+
+
+.clicked, .active{
+	color:#ffaa3c;
+}
+
+.aboutText{
+	width:70%;
+	position: relative;
+	left:15%;
+	text-align: center;
+}
+
+.aboutText{
+	font-family: acumin-pro, sans-serif;
+}
+
+.aboutText>h1, .flipContainer>h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	margin-bottom: 0;
+	margin-top: .4%;
+	text-align: center;
+	color:rgb(255, 171, 61);
+	font-size:7vw;
+}
+
+.flipContainer{
+	width:100%;
+	text-align: center;
+}
+
+.flipContainer>h1{
+	font-size: 5.4vw;
+}
+
+.flipCardCont{
+  width:30%;
+  display: inline-block;
+}
+
+.flipCard {
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+img{
+	width:100%;
+}
+
+.flipped {
+  transform: translateX(-5%) rotateY(180deg);
+}
+
+.flipFront, .flipBack {
+  position: absolute;
+  width: 100%;
+  height:auto;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+  font-size: 4.1vw;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+
+.flipBack{
+  transform: rotateY(180deg);
+  margin-top: 40%;
+}
+

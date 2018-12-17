@@ -1,0 +1,448 @@
+body{
+	background-color: rgb(252,252,252);
+	margin:0;
+}
+
+#navHeader{
+	position: relative;
+	display: block;
+	width:99%;
+	height:5vh;
+	margin-bottom: 0; 
+
+}
+
+.navigation-bar{
+	position: relative;
+	display: inline-block;
+	width:65%;
+	left:17%;
+	margin-bottom: 0; 
+}
+
+ .drop-down, a{
+	text-decoration: none;
+	font-family: interstate, sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	color: black;
+	padding:4px 0px 6px 0px;
+	font-size: 1.4vw;
+	display: inline-block;
+	margin-left: 12%;
+
+}
+
+.drop-nav{
+	display: none;
+	background-color: rgba(236, 236, 236, 0.8);
+	position: absolute;
+	width:21%;
+	z-index: 100;
+	padding:2px;
+
+}
+
+.drop-nav> a{
+	position: relative;
+	display: block;
+	left:4%;
+	padding:6px;
+	padding-bottom: 10px;
+
+}
+
+.clicked,.active{
+	color:orange;
+}
+
+
+
+#scrolltopbtn{
+	position: fixed;
+	bottom:4%;
+	right:2%;
+	width:5%;
+	opacity:1;
+	z-index: 1000;
+}
+
+#introSec{
+	width:100%;
+	position: relative;
+	margin-top: 1%;
+}
+
+.nameContainer{
+	position: relative;
+	display: inline-block;
+	width:43%;
+	left:2%;
+}
+
+#nameImage{
+	width:91%;
+	position: relative;
+	margin-top:17%;
+	left:4%;
+	margin-bottom:18%;
+}
+
+
+.imageContainer{
+	position: relative;
+	left:5%;
+	display: inline-block;
+	width:53%;
+}
+
+#ritaImage{
+	width:90%;
+	position: relative;
+	left:20%;
+}
+
+.pageNavButtons{
+	width:30%;
+	position: absolute;
+	left:0%;
+	top:48%;
+}
+
+.pageNavButtons>button{
+	display: block;
+	margin-bottom: 20%;
+	font-size:1.8vw;
+	font-family: acumin-pro, sans-serif;
+	color:#f7a226;
+	background-color: transparent;
+	border:none;
+
+}
+
+#aboutButton{
+	position: relative;
+	left:30%;
+	
+}
+
+#musicButton{
+	position: relative;
+	left:18%;
+}
+
+#pressButton{
+	position: relative;
+	left:17%;
+}
+
+
+#socialButton{
+	position: relative;
+	left:28%;
+}
+
+.aboutSec{
+	background-color:rgba(255, 171, 61, 0.55);
+	position: relative;
+	width:100%;
+	top:.5%;
+}
+
+.text{
+	width:50%;
+	background-color:rgb(252,252,252);
+	font-family: interstate, sans-serif;
+	font-weight:300;
+	font-style: normal;
+	position: absolute;
+	display: inline-block;
+	left:3%;
+	top:25%;
+	text-align: justify;
+}
+
+.text>h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	margin-bottom: 0;
+	margin-top: .4%;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:7vw;
+}
+
+.text>p{
+	font-size: 1.4vw;
+	width:90%;
+	position: relative;
+	left:5%;
+	margin-bottom:5%;
+	margin-top: 0;
+
+
+}
+
+.aboutImage{
+	width:50%;
+	left:5%;
+	display: inline-block;
+	position: relative;
+	left:53%;
+	margin-top:2%;
+	margin-bottom: 2%;
+	box-shadow: 
+}
+
+#ritaAbout{
+	width:85%;
+	box-shadow: 5px 5px 6px rgba(128, 128, 128, .2);
+}
+
+img{
+	display: inline-block;
+	position: relative;
+	width:100%;
+}
+
+.musicSec{
+	width:100%;
+	position: relative;
+	margin-top: 1%;
+}
+
+.musicSec>h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:6.3vw;
+	margin:0;
+}
+
+.musicStills{
+	position: relative;
+	width:96%;
+	left:5%;
+
+}
+
+.letyou>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+
+}
+
+.letyou{
+	position: relative;
+	width:35%;
+	display: inline-block;
+
+}
+
+ .yoursong>a{
+ 	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+
+}
+
+
+
+ .anywhere>a{
+ 	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+
+}
+  .lonely>a{
+  	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+
+}
+
+.foryou>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+
+}
+
+.letyou>p{
+	position: absolute;
+	top:40%;
+	left:19%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+.yoursong{
+	position: absolute;
+	width:35%;
+	display: inline-block;
+	margin-left:1%;
+}
+
+.yoursong>p{
+	position: absolute;
+	top:28%;
+	left:30%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+.anywhere{
+	position: absolute;
+	width:21%;
+	display: inline-block;
+	margin-left:37%;
+}
+
+.anywhere>p{
+	position: absolute;
+	top:33%;
+	left:15%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+.lonely{
+	position: absolute;
+	left:0;
+	top:102%;
+	width:35%;
+	display: inline-block;
+}
+
+.lonely>p{
+	position: absolute;
+	top:33%;
+	left:35%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+.foryou{
+	position: absolute;
+	left:36%;
+	top:59%;
+	width:57%;
+	display: inline-block;
+}
+
+.foryou>p{
+	position: absolute;
+	top:33%;
+	left:35%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+
+.magContainer{
+	position: relative;
+	margin-top: 20%;
+	background-color: rgba(240, 240, 241, .75);
+	width:100%;
+	transition: 0.3s all;
+	}
+
+.magContainer> h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:6.3vw;
+	margin:0;
+
+}
+
+.magazineSlides>img{
+	position: relative;
+	left:7%;
+	display: inline-block;
+	width:28%;
+	margin-left:1%;
+}
+
+.previous, .next{
+	cursor: pointer;
+	position: absolute;
+	font-size: 4vw;
+	top:50%;
+	transition: 0.6s ease;
+	opacity: .4;
+}
+
+.next{
+	right:2%;
+}
+
+.previous{
+	left:-8%;
+}
+
+.next:hover,  .previous:hover{
+	opacity:1;
+}
+
+.socialMedia{
+	width:100%;
+	height:auto;
+	margin-top: 2%;
+	text-align: center;
+}
+.socialMedia> h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:6.3vw;
+	margin:0;
+	padding:0;
+}
+.socialMedia>a{
+	display: inline-block;
+	margin:0;
+	position: relative;
+	margin-bottom: 8%;
+}
+.socialIcons{
+	width:50%;
+	margin:0;
+}
+
+.songImage{
+	opacity:.9;
+}

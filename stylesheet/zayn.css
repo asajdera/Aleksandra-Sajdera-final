@@ -1,0 +1,449 @@
+body{
+	background-color: rgb(252,252,252);
+	margin:0;
+}
+
+#navHeader{
+	position: relative;
+	display: block;
+	width:99%;
+	height:5vh;
+	margin-bottom: 0; 
+
+}
+
+.navigation-bar{
+	position: relative;
+	display: inline-block;
+	width:65%;
+	left:17%;
+	/*background-color: rgba(240, 240, 241, .75);*/
+	margin-bottom: 0;
+}
+
+ .drop-down, a{
+	text-decoration: none;
+	font-family: interstate, sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	color: black;
+	padding:4px 0px 6px 0px;
+	font-size: 1.4vw;
+	display: inline-block;
+	margin-left: 12%;
+
+}
+
+.drop-nav{
+	display: none;
+	background-color: rgba(236, 236, 236, 0.8);
+	position: absolute;
+	width:21%;
+	z-index: 100;
+	padding:2px;
+
+}
+
+.drop-nav> a{
+	position: relative;
+	display: block;
+	left:4%;
+	padding:6px;
+	padding-bottom: 10px;
+
+}
+.clicked, .active{
+color:#ffaa3c;
+}
+
+
+
+#scrolltopbtn{
+	position: fixed;
+	bottom:4%;
+	right:2%;
+	width:5%;
+	opacity:1;
+	z-index: 1000;
+}
+
+#introSec{
+	width:100%;
+	position: relative;
+	margin-top: 1%;
+}
+
+.nameContainer{
+	position: relative;
+	display: inline-block;
+	width:43%;
+	left:2%;
+}
+
+#nameImage{
+	width:91%;
+	position: relative;
+	margin-top:17%;
+	left:4%;
+	margin-bottom:18%;
+}
+
+
+.imageContainer{
+	position: relative;
+	left:5%;
+	display: inline-block;
+	width:53%;
+}
+
+#zaynImage{
+	width:90%;
+	position: relative;
+	left:20%;
+}
+
+.pageNavButtons{
+	width:30%;
+	position: absolute;
+	left:0%;
+	top:48%;
+}
+
+.pageNavButtons>button{
+	display: block;
+	margin-bottom: 20%;
+	font-size:1.8vw;
+	font-family: acumin-pro, sans-serif;
+	color:#f7a226;
+	background-color: transparent;
+	border:none;
+
+}
+
+#aboutButton{
+	position: relative;
+	left:28%;
+}
+
+#musicButton{
+	position: relative;
+	left:18%;
+}
+
+#pressButton{
+	position: relative;
+	left:17%;
+}
+
+
+#socialButton{
+	position: relative;
+	left:22%;
+}
+
+.aboutSec{
+	background-color:rgba(255, 171, 61, 0.55);
+	position: relative;
+	width:100%;
+	top:.5%;
+}
+
+.text{
+	width:50%;
+	background-color:rgb(252,252,252);
+	font-family: interstate, sans-serif;
+	font-weight:300;
+	font-style: normal;
+	position: absolute;
+	display: inline-block;
+	left:3%;
+	top:8%;
+	text-align: justify;
+}
+
+.text>h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	margin-bottom: 0;
+	margin-top: .4%;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:7vw;
+}
+
+.text>p{
+	font-size: 1.4vw;
+	width:90%;
+	position: relative;
+	left:5%;
+	margin-bottom:5%;
+	margin-top: 0;
+
+
+}
+
+.aboutImage{
+	width:50%;
+	left:5%;
+	display: inline-block;
+	position: relative;
+	left:53%;
+	margin-top:2%;
+	margin-bottom: 2%;
+	box-shadow: 
+}
+
+#zaynAbout{
+	width:85%;
+	box-shadow: 5px 5px 6px rgba(128, 128, 128, .2);
+}
+
+img{
+	display: inline-block;
+	position: relative;
+	width:100%;
+}
+
+.musicSec{
+	width:100%;
+	position: relative;
+	margin-top: 1%;
+}
+
+.musicSec>h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:6.3vw;
+	margin:0;
+}
+
+.musicStills{
+	position: relative;
+	width:95%;
+	left:2.5%;
+
+}
+
+.dusk{
+	position: relative;
+	width:35%;
+	display: inline-block;
+
+}
+
+.dusk>p{
+
+	position: absolute;
+	top:40%;
+	left:10%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+
+}
+
+.dusk>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+
+}
+
+
+.letme{
+	position: absolute;
+	width:35%;
+	display: inline-block;
+	margin-left:1%;
+}
+
+.letme>p{
+	
+	position: absolute;
+	top:28%;
+	left:40%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+
+.letme>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.stillgottime>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.likeiwould>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.stillgottime{
+	position: absolute;
+	width:28%;
+	display: inline-block;
+	margin-left:37%;
+}
+
+.stillgottime>p{
+	
+	position: absolute;
+	top:33%;
+	left:8%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+.likeiwould{
+	position: absolute;
+	left:0;
+	top:102%;
+	width:35%;
+	display: inline-block;
+}
+
+.likeiwould>p{
+	
+	position: absolute;
+	top:33%;
+	left:33%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+}
+
+.pillowtalk{
+	position: absolute;
+	left:36%;
+	top:81%;
+	width:35%;
+	display: inline-block;
+}
+
+.pillowtalk>p{
+	position: absolute;
+	top:33%;
+	left:35%;
+	font-family: interstate, sans-serif;
+	font-weight:bold;
+	font-size: 2.2vw;
+	color:white;
+	
+}
+
+.pillowtalk>a{
+	position: relative;
+	width:100%;
+	border:0;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.magContainer{
+	position: relative;
+	margin-top: 20%;
+	background-color: rgba(240, 240, 241, .75);
+	width:100%;
+	transition: 0.3s all;
+	}
+
+.magContainer> h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:6.3vw;
+	margin:0;
+
+}
+
+.magazineSlides>img{
+	position: relative;
+	left:7%;
+	display: inline-block;
+	width:28%;
+	margin-left:1%;
+}
+
+.previous, .next{
+	cursor: pointer;
+	position: absolute;
+	font-size: 4vw;
+	top:50%;
+	transition: 0.6s ease;
+	opacity: .4;
+}
+
+.next{
+	right:2%;
+}
+
+.previous{
+	left:-8%;
+}
+
+.next:hover,  .previous:hover{
+	opacity:1;
+}
+
+.socialMedia{
+	width:100%;
+	height:auto;
+	margin-top: 2%;
+	text-align: center;
+}
+.socialMedia> h1{
+	font-family: acumin-pro, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+	color:rgba(255, 171, 61, 1);
+	font-size:6.3vw;
+	margin:0;
+	padding:0;
+}
+.socialMedia>a{
+	display: inline-block;
+	margin:0;
+	position: relative;
+	margin-bottom: 8%;
+}
+.socialIcons{
+	width:50%;
+	margin:0;
+}
+
+.songImage{
+	opacity:.9;
+}
